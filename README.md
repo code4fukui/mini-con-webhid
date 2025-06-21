@@ -9,7 +9,7 @@ https://code4fukui.github.io/mini-con-webhid/
 <textarea id=ta></textarea>
 
 <script type="module">
-import { connectMiniCon } from "./connectMiniCon.js";
+import { connectMiniCon } from "https://code4fukui.github.io/mini-con-webhid/connectMiniCon.js";
 
 connectButton.onclick = () => {
   connectMiniCon((e) => {
@@ -19,3 +19,7 @@ connectButton.onclick = () => {
 };
 </script>
 ```
+
+## lib
+
+- [Joy-Con WebHID](https://github.com/code4fukui/joy-con-webhid/)

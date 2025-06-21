@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+<title>MiniCon</title>
+</head><body>
+<h1>MiniCon demo</h1>
+<button id=connectButton>connect</button><br>
+<textarea id=ta></textarea>
+
+<style>
+#ta {
+  margin-top: 1em;
+  width: 90vw;
+  height: 30em;
+}
+</style>
+
+<script type="module">
+import { connectMiniCon } from "./connectMiniCon.js";
+
+connectButton.onclick = () => {
+  connectMiniCon((e) => {
+    //console.log(e);
+    ta.value = JSON.stringify(e, null, 2);
+  });
+};
+
+</script>
+
+<hr>
+<a href=https://github.com/code4fukui/mini-con-webhid/>src on GitHub</a><br>
+lib: <a href=https://github.com/code4fukui/joy-con-webhid/>Joy-Con WebHID</a><br>
+
+</body></html>
+

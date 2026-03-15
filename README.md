@@ -1,5 +1,7 @@
 # mini-con-webhid
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A library to connect to the Nintendo Switch Joy-Con using the WebHID API.
 
 ## Demo

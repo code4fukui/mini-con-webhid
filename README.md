@@ -1,8 +1,15 @@
 # mini-con-webhid
 
+A library to connect to the Nintendo Switch Joy-Con using the WebHID API.
+
+## Demo
 https://code4fukui.github.io/mini-con-webhid/
 
-## usage
+## Features
+- Connect to Nintendo Switch Joy-Con using the WebHID API
+- Retrieve input events from the Joy-Con, including analog stick and button states
+
+## Usage
 
 ```html
 <button id=connectButton>connect</button><br>
@@ -13,13 +20,14 @@ import { connectMiniCon } from "https://code4fukui.github.io/mini-con-webhid/con
 
 connectButton.onclick = () => {
   connectMiniCon((e) => {
-    //console.log(e);
     ta.value = JSON.stringify(e, null, 2);
   });
 };
 </script>
 ```
 
-## lib
-
+## Libraries
 - [Joy-Con WebHID](https://github.com/code4fukui/joy-con-webhid/)
+
+## License
+MIT License

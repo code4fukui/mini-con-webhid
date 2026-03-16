@@ -32,4 +32,4 @@ connectButton.onclick = () => {
 - [Joy-Con WebHID](https://github.com/code4fukui/joy-con-webhid/)
 
 ## License
-MIT License
+MIT License — see [LICENSE](LICENSE).

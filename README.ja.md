@@ -1,12 +1,12 @@
 # mini-con-webhid
 
-Nintendo Switch Joy-Conをウェブブラウザから操作するためのライブラリです。WebHID APIを使用しています。
+Nintendo Switch Joy-Conを、ウェブブラウザから操作するためのライブラリです。WebHID APIを使用しています。
 
 ## デモ
 https://code4fukui.github.io/mini-con-webhid/ でデモページを公開しています。
 
 ## 機能
-- Nintendo Switch Joy-Conの接続
+- Nintendo Switch Joy-Conとの接続
 - アナログスティックやボタンの入力イベントの取得
 
 ## 使い方

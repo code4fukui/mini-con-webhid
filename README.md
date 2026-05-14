@@ -6,7 +6,7 @@ A lightweight library for connecting to Nintendo Switch Joy-Cons in the browser 
 
 ## Demo
 
-**Live Demo: https://code4fukui.github.io/mini-con-webhid/**
+**Live Demo: https://github.com/code4fukui/mini-con-webhid
 
 To use the demo:
 1.  Pair your Joy-Con with your computer via Bluetooth.

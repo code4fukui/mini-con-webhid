@@ -4,7 +4,7 @@ WebHID APIを使用して、ブラウザ上でNintendo SwitchのJoy-Conに接続
 
 ## デモ
 
-**ライブデモ: https://code4fukui.github.io/mini-con-webhid/**
+**ライブデモ: https://github.com/code4fukui/mini-con-webhid
 
 デモを使用するには:
 1.  Joy-ConをBluetooth経由でコンピュータとペアリングします。
